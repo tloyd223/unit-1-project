@@ -1,15 +1,34 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #E9EFC0;
 }
 .nav-bar {
-    background-color: grey;
+    background-color: #B4E197;
     width: 100%;
     height: 40px;
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 15px;
+    
+  
 }
-
+li {
+    display: inline;
+    padding: 10px;
+    
+}
+h2 {
+    padding-left: 20px;
+}
+ul {
+    padding-right:30px;
+}
 .container {
     width: 90%;
     height: 1000px;
@@ -39,3 +58,4 @@
     width: 90%;
     height: 30%;
 }
+
