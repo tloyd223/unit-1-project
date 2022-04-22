@@ -58,3 +58,20 @@ ul {
     width: 90%;
     height: 30%;
 }
+
+
+@media only screen and (max-width: 600px) {
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.box1, .box2, .footer{
+    width: 80%;
+    margin: auto;
+}
+
+}
